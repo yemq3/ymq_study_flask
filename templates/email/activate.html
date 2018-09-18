@@ -1,0 +1,11 @@
+Your account was successfully created. Please click the link below<br>
+to confirm your email address and activate your account:
+
+<p>
+<a href="{{ url_for('auth.confirm_email', token=token, _external=True) }}">{{ url_for('auth.confirm_email', token=token, _external=True) }}</a>
+</p>
+
+<p>
+--<br>
+Questions? Comments? Email hello@myapp.com.
+</p>
